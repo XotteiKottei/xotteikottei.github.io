@@ -1,1 +1,0 @@
-# xotteikottei.github.io
