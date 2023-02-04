@@ -1,73 +1,57 @@
+        box-shadow: var(--box-shadow-1);
+        
+        /*HERE IS THE CODE*/
+        i {
+            font-size: 1.2rem;
+            color: var(--color-grey-2);
+            pointer-events: none;
+        }
+    } 
+}
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <title>IT Programmer Portfolio</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="../portfolio/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
 </head>
-<body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <section id="about">
-      <h2>About</h2>
-      <p>Hi, I'm an IT programmer with 5 years of experience in developing web applications. I specialize in JavaScript, HTML, and CSS and have a passion for creating dynamic and responsive user interfaces.</p>
-      <p>I have a strong understanding of software development principles and am always eager to learn new technologies and programming languages.</p>
-    </section>
-    <section id="experience">
-      <h2>Experience</h2>
-      <ul>
-        <li>
-          <h3>Web Developer - XYZ Company</h3>
-          <p>Developed and maintained web applications using JavaScript, HTML, and CSS.</p>
-        </li>
-        <li>
-          <h3>Full Stack Developer - ABC Company</h3>
-          <p>Designed and implemented full stack web applications using JavaScript, Node.js, and MongoDB.</p>
-        </li>
-      </ul>
-    </section>
-    <section id="projects">
-      <h2>Projects</h2>
-      <ul>
-        <li>
-          <h3>Dynamic Form Generator</h3>
-          <p>Developed a dynamic form generator using JavaScript and HTML that allows users to easily create custom forms for their websites.</p>
-        </li>
-        <li>
-          <h3>E-commerce Website</h3>
-          <p>Designed and implemented an e-commerce website using JavaScript, Node.js, and MongoDB that allows users to easily purchase products online.</p>
-        </li>
-      </ul>
-    </section>
-    <section id="contact">
-      <h2>Contact</h2>
-      <form>
-        <div>
-          <label for="name">Name:</label>
-          <input type="text" id="name" name="name">
+
+    
+<body class="main-content">
+    
+    <header class="section sec1 header active">
+    </header>
+
+    <main>
+        <section class="section sec2 about"></section>
+        <section class="section sec3 portfolio"></section>
+        <section class="section sec4 blogs"></section>
+        <section class="section sec5 contact"></section>
+    </main>
+
+    <div class="controlls">
+        <div class="control control-1 active-btn">
+            <i class="fas fa-home"></i>
         </div>
-        <div>
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email">
+        <div class="control control-2">
+            <i class="fas fa-user"></i>
         </div>
-        <div>
-          <label for="message">Message:</label>
-          <textarea id="message" name="message"></textarea>
+        <div class="control control-3">
+            <i class="fas fa-briefcase"></i>
         </div>
-        <button type="submit">Submit</button>
-      </form>
-    </section>
-  </main>
+        <div class="control control-4">
+            <i class="fas fa-newspaper"></i>
+        </div>
+        <div class="control control-5">
+            <i class="fas fa-envelope-open"></i>
+        </div>
+    </div>
 </body>
 </html>
-
